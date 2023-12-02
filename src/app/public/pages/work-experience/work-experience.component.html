@@ -1,0 +1,27 @@
+<h1 class="title mb-5 mt-5">{{ title }}</h1>
+<div class="container">   
+
+    @defer(on immediate)  {
+        <job-list></job-list>
+    } @placeholder {
+        <p>
+            Placeholder
+        </p>
+    } @loading (after 100ms; minimum 1s) {
+        <div class="loading">
+            <p-progressBar mode="indeterminate" [style]="{ height: '6px' }"></p-progressBar>
+        </div>
+    } @error {
+        <p-fieldset>
+            <ng-template pTemplate="header">
+                <div class="flex align-items-center text-primary">
+                    <span class="pi pi-user mr-2"></span>
+                    <span class="font-bold text-lg">Error</span>
+                </div>
+            </ng-template>
+            Content
+        </p-fieldset>
+        
+    }
+
+</div>

@@ -1,0 +1,19 @@
+@for (job of jobs; track job.id) {
+    <div class="job">
+        <p-divider align="left">
+            <div class="inline-flex align-items-center">
+                <i class="pi pi-list mr-2"></i>
+                <b>{{ job.company }}</b>
+            </div>
+        </p-divider>
+        <p>
+            {{ job.description }}
+        </p>
+        <div class="tags">
+            <p-chip label="Action"></p-chip>
+            <p-chip label="Comedy"></p-chip>
+            <p-chip label="Mystery"></p-chip>
+            <p-chip label="Thriller" [removable]="true"></p-chip>
+        </div>
+    </div>
+}

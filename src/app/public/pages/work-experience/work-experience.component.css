@@ -1,0 +1,19 @@
+
+.tags p-chip {
+    margin-right: 1em;
+}
+
+i {
+    margin-right: 0.6em;
+}
+
+.title {
+    font-family: "Neo Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.loading {
+    width: 100%;
+    text-align: center;
+}
