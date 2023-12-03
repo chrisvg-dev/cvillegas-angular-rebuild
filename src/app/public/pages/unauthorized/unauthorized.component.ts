@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { MatrixComponent } from '../../components/matrix/matrix.component';
 
 @Component({
-  selector: 'app-page-not-found',
+  selector: 'app-unauthorized',
   standalone: true,
   imports: [MatrixComponent],
-  templateUrl: './page-not-found.component.html',
-  styleUrl: './page-not-found.component.css'
+  templateUrl: './unauthorized.component.html',
+  styleUrl: './unauthorized.component.css'
 })
-export class PageNotFoundComponent {
+export class UnauthorizedComponent {
 
 }
