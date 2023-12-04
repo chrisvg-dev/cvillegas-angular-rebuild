@@ -20,3 +20,21 @@ h1 {
     width: 100%;
     text-align: center;
 }
+
+
+/* not selected */
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    text-decoration: none;
+    color: rgb(28, 100, 21);
+}
+/* hover */
+.p-tabview .p-tabview-nav li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
+    background: transparent;
+    border-color: rgb(30, 122, 113);
+    color: rgb(28, 100, 21);
+}
+/* selected */
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    background: rgb(30, 122, 113);
+    color: white;
+}

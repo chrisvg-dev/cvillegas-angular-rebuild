@@ -1,40 +1,14 @@
-.lead {
-    line-height: 1.3em;
-    font-size: 16px;
+h2 {
+    
+    font-weight: 500;
+    font-size: 1.6em;
+    text-align: left;
 }
 
-.heroe {
-
+p, h2 {
+    font-family: "Neo Sans Pro", sans-serif;
 }
 
-.dif {
-    border-radius: 30%;
-    display: inline-block;
-    position: relative;
+p {
+    font-size: 1.2em;;
 }
-.dif img {
-    border-radius: 30%;
-    display: block;
-    border:1px solid rgba(255,255,255,0);  
-}
-.dif:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(ellipse at center, rgba(156, 86, 86, 0) 0%,rgba(255,255,255,1) 69%,rgba(255,255,255,1) 100%);
-    border-radius: 30%;
-    position: absolute;
-    top: 0;
-    left: 0;
-   }
-
-   .row {
-    display: flex;
-    align-items: center;
-   }
-
-   .row div {
-    display: table-cell;
-    vertical-align: middle;
-   }

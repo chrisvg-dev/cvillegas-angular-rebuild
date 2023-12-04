@@ -1,0 +1,68 @@
+.lead {
+    line-height: 1.3em;
+    font-size: 16px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(27, 83, 67); /* change background color */
+    color: white;
+    font-family: "Neo Sans Pro", sans-serif;
+    display: flex;
+    place-items: center;
+    text-align: center;
+}
+
+.slider h1 {
+    color: white;
+    font-family: "Neo Sans Pro", sans-serif;
+    font-size: 3em;
+}
+
+.slider img {
+    width: 200px;
+    opacity: 0.7;
+}
+
+.slider p {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.dif {
+    border-radius: 30%;
+    display: inline-block;
+    position: relative;
+}
+.dif img {
+    border-radius: 30%;
+    display: block;
+    border:1px solid rgba(255,255,255,0);  
+}
+.dif:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(156, 86, 86, 0) 0%,rgba(255,255,255,1) 69%,rgba(255,255,255,1) 100%);
+    border-radius: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+
+   .row {
+    display: flex;
+    align-items: center;
+   }
+
+   .row div {
+    display: table-cell;
+    vertical-align: middle;
+   }
